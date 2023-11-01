@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.welcome-container {
+    background: url(https://i.pinimg.com/736x/d8/68/14/d8681493512d7bc4a219df34f1e3b1ee.jpg) center center/cover no-repeat;
+    height: 1500px;
+    width: 1500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.welcome-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.welcome-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Add additional styles as needed */
+/* Add your CSS styles for the entire portfolio here */
+
+.about {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5;
+}
+/* Add your CSS styles for the entire portfolio here */
+
+.resume {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.resume h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+.resume p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Add additional styles as needed */
+/* Add your CSS styles for the entire portfolio here */
+
+.works {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.works-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.works h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.work {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.work h3 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.work p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.work a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.work a:hover {
+    background-color: #0056b3;
+}
+/* Add your CSS styles for the entire portfolio here */
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contact-info {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Flex container for your sections */
+    .gallery {
+        background-color: #f9f9f9;
+        padding: 40px 0;
+        text-align: center;
+    }
+    
+    .gallery-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .gallery h2 {
+        font-size: 2rem;
+        color: #333;
+    }
+    
+    .gallery-item {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .gallery-item img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+    }
+    
+    .gallery-item p {
+        font-size: 1.2rem;
+        color: #555;
+        line-height: 1.5;
+    }
+
